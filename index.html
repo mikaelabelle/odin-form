@@ -9,15 +9,57 @@
 </head>
 
 <body>
-    <h1>Le Logo</h1>
-    <div class="content">
-        <h2>This is some text that is at the top of the page and should have several lines. Sign up for nothing in
-            return.</h2>
-
-        <div class="form">
-
+    <div class="left">
+        <h1>Le Logo</h1>
+    </div>
+    <div class="right">
+        <div class="top">
+            <h2>This is some text that is at the top of the page and should have several lines. Sign up for nothing in
+                return.</h2>
         </div>
-
+        <form action="post">
+            <div class="form">
+                <h2>Let's do this!</h2>
+                <div class="inputs">
+                    <div class="row1">
+                        <div class="box">
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" name="first-name" id="first-name">
+                        </div>
+                        <div class="box">
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" name="last-name" id="last-name">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row2">
+                        <div class="box">
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div class="box">
+                            <label for="phone-number">PHONE NUMBER</label>
+                            <input type="tel" name="phone-number" id="phone-number">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row3">
+                        <div class="box">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" name="password" id="password">
+                        </div>
+                        <div class="box">
+                            <label for="con-password">CONFIRM PASSWORD</label>
+                            <input type="password" name="con-password" id="con-password">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <a href="">Log in</a></p>
+            </div>
+        </form>
     </div>
 </body>
 
